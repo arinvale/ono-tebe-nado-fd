@@ -15,15 +15,23 @@
   line-height: 24.3px;
 }
 
+.letter-spacing-normal {
+  letter-spacing: normal;
+}
+
 .text-align-start {
   text-align: start;
 }
 
 .text-align-center {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 .text-align-end {
+  display: flex;
+  justify-content: end;
   text-align: end;
 }
 
