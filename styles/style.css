@@ -24,14 +24,10 @@
 }
 
 .text-align-center {
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
 
 .text-align-end {
-  display: flex;
-  justify-content: end;
   text-align: end;
 }
 
