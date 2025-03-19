@@ -265,7 +265,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  padding: 0px 50px 82px 50px;
+  padding: 1px 50px 82px 50px;
 }
 
 .footer-address-link {
