@@ -138,27 +138,24 @@
 }
 
 .lots {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 180px 24px 0 24px;
-  row-gap: 25px;
+  padding: 179px 24px 0px 24px;
 }
 
 .lots-title {
-  color: #000;
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
+  margin-bottom: 27px;
   margin-left: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
-  justify-content: space-between;
-  gap: 25px;
   flex-wrap: wrap;
+  gap: 25px;
+  width: 100%;
+  margin-bottom: 30px;
   list-style: none;
 }
 
