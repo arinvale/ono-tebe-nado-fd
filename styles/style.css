@@ -31,7 +31,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px;
+  padding: 92px 50px 96px 50px;
 }
 
 .logo-container {
@@ -48,7 +48,7 @@
 .cover {
   position: relative;
   z-index: 1;
-  padding: 165px 50px 61px 50px;
+  padding: 165px 50px 50px 50px;
   color: #fff;
   background-color: #a7a7a7;
   background-image: url("../images/cover.jpg");
@@ -98,7 +98,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  margin-bottom: 135px;
+  margin-bottom: 106px;
   font-weight: 700;
   font-size: 100px;
   line-height: 114.99999999999999%;
@@ -220,6 +220,7 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   column-gap: 72px;
+  margin: 0px 24px;
   padding: 35px 24px 47px 50px;
   margin-top: 120px;
 }
@@ -252,7 +253,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
-  width: 693px;
 }
 
 .about-text:not(:last-of-type) {
